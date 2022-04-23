@@ -182,3 +182,75 @@ Widget adalah item yang ditambahkan ke sidebar pada suatu halaman web. Berikut a
 Berikut adalah tampilan nya :
 
 ![5 - Membuat Widget Header dan Widget Teks](https://user-images.githubusercontent.com/73066008/164877788-81ad6f1c-361a-4a8d-a42c-c68501acd701.png)
+
+# Membuat Row Content ( Section 1 dan 2 )
+Lalu tambahkan section 1 dan 2 dibungkus row dan juga col. Berikut adalah code nya :
+
+      <!-- Row Content 2 -->
+            <div class="row">
+             
+             <!-- Section 1 -->
+              <div class="col-8-md">
+                <div class="card mb-3" style="width: 900px; height: 200px; border: 0">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="img/upb1.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h2 class="card-title" style="font-weight: bold">Universitas Pelita Bangsa</h2>
+                        <p class="card-text" style="text-align: left">
+                          Universitas Pelita Bangsa (UPB) merupakan perguruan tinggi baru hasil perubahan bentuk dari penggabungan antara Sekolah Tinggi Ilmu Ekonomi (STIE) dan Sekolah Tinggi Teknik (STT) sesuai dengan Surat Keputusan Menteri
+                          Pendidikan Nasional Republik Indonesia Nomor : 664/KPTI/I/2019 tanggal 2 Agustus 2019.
+                        </p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Row Content 3 -->
+            <div class="row">
+             
+             <!-- Section 2 -->
+              <div class="col-8-lg me-5">
+                <div class="card mb-3" style="width: 900px; height: 200px; border: 0">
+                  <div class="row g-0">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h2 class="card-title" style="font-weight: bold">Motto Universitas Pelita Bangsa</h2>
+                        <p class="card-text">
+                          Motto Universitas Pelita Bangsa adalah MEGAH yang bermaksud :<br />
+                          M : Moral tinggi<br />
+                          E : Entrepreneur<br />
+                          G : Gigih dalam berkarya<br />
+                          A : Ahli di bidangnya<br />
+                          H : Harapan bangsa
+                        </p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="img/upb2.jpg" class="img-fluid rounded-start" alt="picture" width="250" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+Berikut adalah tampilan nya :
+
+![6 - Membuat Row Content (Section 1 dan 2)](https://user-images.githubusercontent.com/73066008/164878933-bc010add-05c6-4e1d-8b6b-038e0ed99103.png)
+
+# 7. Membuat Card Footer
+Selanjutnya membuat card footer yaitu elemen struktural yang digunakan untuk mengidentifikasi bagian catatan kaki sebuah halaman web. Berikut adalah code nya :
+
+       <div class="card-footer text-center" style="background-color: #1d1d1d; color: #eee">
+              <p>© 2022 - Universitas Pelita Bangsa</p>
+            </div>
+
+Berikut adalah tampilan nya :
+
+![7 - Membuat Card Footer](https://user-images.githubusercontent.com/73066008/164878936-7f528273-d24c-4048-a29f-64d74d94148e.png)
