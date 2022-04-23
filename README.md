@@ -194,7 +194,7 @@ Lalu tambahkan section 1 dan 2 dibungkus row dan juga col. Berikut adalah code n
                 <div class="card mb-3" style="width: 900px; height: 200px; border: 0">
                   <div class="row g-0">
                     <div class="col-md-4">
-                      <img src="img/upb1.jpg" class="img-fluid rounded-start" alt="..." />
+                      <img src="img/upb1.jpg" class="img-fluid rounded-start" alt="upb1" />
                     </div>
                     <div class="col-md-8">
                       <div class="card-body">
@@ -233,7 +233,7 @@ Lalu tambahkan section 1 dan 2 dibungkus row dan juga col. Berikut adalah code n
                       </div>
                     </div>
                     <div class="col-md-4">
-                      <img src="img/upb2.jpg" class="img-fluid rounded-start" alt="picture" width="250" />
+                      <img src="img/upb2.jpg" class="img-fluid rounded-start" alt="upb2" width="250" />
                     </div>
                   </div>
                 </div>
